@@ -7,9 +7,11 @@ import ReactDOM from "react-dom";
 class HelloWorld extends React.Component {
 
     render() {
+        var title = "hey";
+
         //react element
         return (
-            <div><h1>hello rhythm..!!! Welcome</h1></div>
+            <div><h1>{title}</h1></div>
         )
     }
 }
